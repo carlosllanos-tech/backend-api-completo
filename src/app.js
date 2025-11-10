@@ -33,10 +33,12 @@ app.get('/info', (req, res) => {
 const authRoutes = require('./routes/auth.routes');
 const usuariosRoutes = require('./routes/usuarios.routes');
 const torneosRoutes = require('./routes/torneos.routes');
+const equiposRoutes = require('./routes/equipos.routes');
 
 //Usar ruta
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/usuarios', usuariosRoutes);
 app.use('/api/v1/torneos', torneosRoutes);
+app.use('/api/v1/equipos', equiposRoutes);
 
 module.exports = app;
