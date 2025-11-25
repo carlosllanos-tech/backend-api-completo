@@ -48,5 +48,6 @@ app.use('/api/v1/jugadores', jugadoresRoutes);
 app.use('/api/v1/partidos', partidosRoutes);
 app.use('/api/v1/eventos', eventosRoutes);
 app.use('/api/v1/reportes', reportesRoutes);
+// fin rutas
 
 module.exports = app;
